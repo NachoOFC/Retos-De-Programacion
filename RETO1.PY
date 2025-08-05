@@ -6,7 +6,7 @@ sustituyendo:
 - Múltiplos de 3 y 5 por "fizzbuzz"
 """
 
-print("Números del 1 al 100: ")
+print("numeros del 1 al 100 con las condiciones del reto siiiiiiiiiii:")
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
         print("fizzbuzz")
@@ -19,4 +19,7 @@ for i in range(1, 101):
 
 
 # RETO1.PY
-# Fin del reto
+# Fin del reto 
+#soy nacho
+#Todo correcto
+#*fin
