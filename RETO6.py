@@ -1,5 +1,5 @@
 #*Difícil
-#6ASPECT RATIO DE UNA IMAGEN
+#6 ASPECT RATIO DE UNA IMAGEN
 """"
  * Crea un programa que se encargue de calcular el aspect ratio de una
  * imagen a partir de una url.
@@ -12,8 +12,6 @@
 
 import wget
 from PIL import Image
-
-
 
 
 def aspect_ratio(url):
