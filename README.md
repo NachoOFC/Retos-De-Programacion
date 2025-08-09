@@ -3,6 +3,6 @@ https://retosdeprogramacion.com/ejercicios
 
 
 
-retos pendientes: RETO6.py
+retos pendientes: RETO6.py , RETO8.py
 
 
