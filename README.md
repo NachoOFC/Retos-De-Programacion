@@ -29,5 +29,3 @@ Este repositorio contiene mis soluciones a diferentes retos de programación imp
 
 - Python 3
 - Librerías: PIL, wget (para RETO6)
-
-

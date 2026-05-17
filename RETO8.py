@@ -8,12 +8,20 @@
  *   lo resuelvan automáticamente.
 """
 
+contador = 0
 def contador_palabras(frase):
     #frase en miniscula
     frase = frase.lower()
 
-    
     contador = 0
+    #separar palabras
+    for i in frase:
+        if i == " ":
+            contador = contador + 0
+        else:         
+            contador = contador + 1
+    
+    
     return print(contador)
 
-contador_palabras("hola hola")
+contador_palabras("hola mundo")
