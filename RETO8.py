@@ -12,16 +12,24 @@ contador = 0
 def contador_palabras(frase):
     #frase en miniscula
     frase = frase.lower()
-
+    palabras =[]
     contador = 0
     #separar palabras
-    for i in frase:
-        if i == " ":
-            contador = contador + 0
-        else:         
-            contador = contador + 1
+    while frase:
+        palabra = ""
+        for letra in frase:
+            if letra.isalpha(): # Verificar si el carácter es una letra
+                palabra += letra
+            else:
+                break
+        if palabra:
+            palabras.append(palabra)
+        frase = frase[len(palabra):].lstrip() # Eliminar la palabra y los espacios en blanco al inicio
+    #contar palabras
+    for palabra in palabras:
+        contador += 1
+        
     
-    
-    return print(contador)
+    return print(contador,palabras)
 
 contador_palabras("hola mundo")
